@@ -1,1 +1,1 @@
-{"key":"username","namespaces":["employee"],"multiLine":false,"maxLength":50}
+{"key":"username","namespaces":["employee","home"],"multiLine":false,"maxLength":50}

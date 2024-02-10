@@ -435,7 +435,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "custom-service","home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -529,7 +529,7 @@
             "formBuilder",
             "workflowStatus",
             "workflowBuilder",
-            "leave"
+            "leave","home"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -676,6 +676,19 @@
         "maxLength": 70
     },
     {
+        "key": "edit-password",
+        "t": {
+            "fa" : "ویرایش رمز عبور" ,
+            "en" : "Edit password"
+        },
+        "namespaces": [
+            "home",
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
         "key": "scm",
         "t": {
             "fa" : "مدیریت ارتباط با مشتری" ,
@@ -796,11 +809,13 @@
     },
     {
         "key": "dashboard",
-        "namespaces": [
-            "sidebar"
-        ],
+        "namespaces": ["sidebar" ,"dashboard" ,"home"],
         "multiLine": false,
-        "maxLength": 70
+        "maxLength": 70,
+        "t": {
+            "fa": "داشبورد",
+            "en": "Dashboard"
+        }
     },
     {
         "key": "organizationalStructuresManagement",
@@ -1215,7 +1230,7 @@
     {
         "key": "username",
         "namespaces": [
-            "employee"
+            "employee" ,"home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1231,10 +1246,23 @@
     {
         "key": "minchar-limit-password-err",
         "namespaces": [
-            "employee"
+            "employee" ,"home"
         ],
         "multiLine": false,
         "maxLength": 50
+    },
+    {
+        "key": "current-password",
+        "namespaces": [
+            "home","general"
+        ],
+        "multiLine": false,
+        "maxLength": 50 ,
+        "t": {
+            "fa" : "رمز عبور فعلی" ,
+            "en" : "Current password"
+        }
+
     },
     {
         "key": "lowercase-limit-password-err",
@@ -1243,6 +1271,7 @@
         ],
         "multiLine": false,
         "maxLength": 50
+
     },
     {
         "key": "uppercase-limit-password-err",
@@ -1311,7 +1340,7 @@
     {
         "key": "match-duplicate-password-err",
         "namespaces": [
-            "employee"
+            "employee" ,"home" ,"general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1335,7 +1364,7 @@
     {
         "key": "password",
         "namespaces": [
-            "employee"
+            "employee" ,"home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1883,5 +1912,250 @@
         ],
         "multiLine": false,
         "maxLength": 50
+    },
+    {
+        "key": "maxchar-limit-edit-password-err",
+        "namespaces": [
+            "general" ,"home"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "رمز عبور نباید بیشتر از 20 کاراکتر باشد",
+            "en": "Password must not be more than 20 characters"
+        }
+    },
+    {
+        "key": "invalid-username-or-password",
+        "namespaces": [
+            "general" ,"home"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "رمز عبور یا نام کاربری وارد شده معتبر نمی باشد",
+            "en": "The password or username entered is invalid"
+        }
+    },{
+    "key": "new-password",
+    "namespaces": [
+        "general" ,"home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "رمز عبور جدید",
+        "en": "New password"
     }
+},{
+    "key": "repeat-new-password",
+    "namespaces": [
+        "general" ,"home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "تکرار رمز عبور جدید",
+        "en": "Repeat new password"
+    }
+},{
+    "key": "login",
+    "namespaces": [
+        "general" ,"home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "ورود",
+        "en": "Login"
+    }
+},{
+    "key": "contact-us",
+    "namespaces": [
+       "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "با ما تماس بگیرید",
+        "en": "Contact us"
+    }
+},{
+    "key": "introduction-body",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": true,
+    "maxLength": 350,
+    "t": {
+        "fa": "پیشبرد سازمانی و افزایش سطح هوشمندی با ماژول های؛ مدیریت منابع انسانی، مدیریت زنجیره تامین، مدیریت ارتباط با مشتریان، مدیریت مالی و حسابداری، در یک نگاه با بهبود کارایی و افزایش توانمندی های سازمانی، تبدیل به محوری جهت ارتقاء عملکرد و بهره وری گردیده است.",
+        "en": "Organizational advancement and increasing the level of intelligence with modules; Human resource management, supply chain management, customer relationship management, financial and accounting management, in a glance, with improving efficiency and increasing organizational capabilities, has become a focus for improving performance and productivity."
+    }
+},{
+    "key": "management-system",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "سیستم مدیریت",
+        "en": "Management system"
+    }
+}
+,{
+    "key": "business-process",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "فرایند کسب و کار",
+        "en": "business process"
+    }
+},{
+    "key": "Pouyagaran",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "پویاگران",
+        "en": "Pouyagaran"
+    }
+},{
+    "key": "introduction-title",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 100,
+    "t": {
+        "en": "<span style=\"color:#AEE9FF\">{{z}}</span><br/>{{y}}<br/> {{x}}",
+        "fa": "{{x}}<br/>{{y}} <span style=\"color:#AEE9FF\">{{z}}</span>"
+    }
+},{
+    "key": "login-panel",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "وارد پنل کاربری خود شوید",
+        "en": "Login to your user panel"
+    }
+},{
+    "key": "logout-panel",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "از اکانت خارج میشوید؟",
+        "en": "Do you logout?"
+    }
+},{
+    "key": "welcome",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "خوش آمدید",
+        "en": "Welcome"
+    }
+},{
+    "key": "login-user-panel",
+        "namespaces": [
+            "home"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": " ورود به پنل",
+            "en": "Login panel"
+        }
+    },{
+    "key": "logout",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "خروج از اکانت",
+        "en": "Logout"
+    }
+},{
+    "key": "Business-process-management-system",
+    "namespaces": [
+        "home" ,"general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "سیستم مدیریت فرایند کسب و کار",
+        "en": "Business process management system"
+    }
+},{
+    "key": "Human-resources-management",
+    "namespaces": [
+        "home" ,"general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "en": "Human resources management",
+        "fa": "مدیریت منابع انسانی"
+    }
+},{
+    "key": "Supply-Chain-Management",
+    "namespaces": [
+        "home" ,"general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مدیریت زنجیره تامین",
+        "en": "Supply Chain Management"
+    }
+},{
+    "key": "customer-relation-management",
+    "namespaces": [
+        "home" ,"general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مدیریت ارتباط با مشتری",
+        "en": "customer relation management"
+    }
+},{
+    "key": "Financial-management-and-accounting",
+    "namespaces": [
+        "home" ,"general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مدیریت مالی و حسابداری",
+        "en": "Financial management and accounting"
+    }
+},{
+    "key": "Poyashop",
+    "namespaces": [
+        "home" ,"general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "پویاشاپ",
+        "en": "Poyashop"
+    }
+}
 ]

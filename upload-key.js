@@ -3,8 +3,8 @@ const keys = require('./keys.json');
 const fs = require('fs');
 const path = require('path');
 
-const BASE_URL = "http://192.168.20.93:3000/api";
-const access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiIwYTI0YTI1Ni1lZjJmLTQ1MTQtOTczMy05MzZhY2YzZDhlZTgiLCJhY2NvdW50SWQiOiI4NjgwYWU4Ni03NmI4LTRiYzgtYjBhMy0wODNhMjJiNDE4NGUiLCJlbXBsb3llZUlkIjpudWxsLCJpc0FkbWluIjp0cnVlLCJ1c2VybmFtZSI6ImFkbWluIiwiZW1haWwiOiJjaGFuZ2UuaXRAYWRtaW4uY29tIiwicm9sZXMiOltdLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTcwNzA0MTIyNCwiZXhwIjoxNzA3OTA1MjI0fQ.w1RlHInyi-Spw481bYSjKQ_A-V38t09e4xvKihd4xYM";
+const BASE_URL ="https://dev-api-bpms.pouyagaranautomation.com/api";
+const access_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXNzaW9uSWQiOiJiNzIzYTc0Yi0wNTQ2LTRmYzgtYTYyYi1iN2Q0OTVlZjg4NjQiLCJhY2NvdW50SWQiOiJlYWFlMTdkOC1jOTljLTQwOGQtYWY3Yi0wZGYxYWRkOTBmNjAiLCJlbXBsb3llZUlkIjpudWxsLCJpc0FkbWluIjp0cnVlLCJ1c2VybmFtZSI6ImFkbWluIiwiZW1haWwiOiJjaGFuZ2UuaXRAYWRtaW4uY29tIiwicm9sZXMiOltdLCJwZXJtaXNzaW9ucyI6W10sImlhdCI6MTcwNzU3MTAxMywiZXhwIjoxNzA3NTcyODEzfQ.8KH6Nu_YAulMsaFTxEt0yjog5ArqgpNbVSEZD0tGYi0";
 
 async function main() {
     if (!fs.existsSync('keys')) {
