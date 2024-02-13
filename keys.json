@@ -2157,5 +2157,127 @@
         "fa": "پویاشاپ",
         "en": "Poyashop"
     }
+}, {
+    "key": "organization-announcements",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "اعلان های سازمان",
+        "en": "Organization announcements"
+    }
+}
+, {
+    "key": "weekly-management-meetings",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "جلسات مدیریت هفتگی",
+        "en": "Weekly management meetings"
+    }
+}, {
+    "key": "weekly-management-meetings-description",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "جلسه مدیریت هفتگی روز یکشنبه ساعت 10 صبح در سالن کنفرانس برگزار خواهد شد.",
+        "en": "The weekly management meeting will be held on Sunday at 10 am in the conference hall."
+    }
+}, {
+    "key": "nowruz-holidays",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "تعطیلات نوروز",
+        "en": "Nowruz holidays"
+    }
+}, {
+    "key": "nowruz-holidays-description",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "تعطیلات نوروز از تاریخ ۱ تا ۶ فروردین خواهد بود. برنامه های خود را مطابق با تقویم تعطیلات تنظیم کنید.",
+        "en": "Nowruz holiday will be from April 1st to April 6th. Adjust your plans according to the holiday calendar."
+    }
+}, {
+    "key": "annual-assessment",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "ارزیابی سالانه",
+        "en": "Annual assessment"
+    }
+}, {
+    "key": "annual-assessment-description",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "تعطیلات نوروز از تاریخ ۱ تا ۶ فروردین خواهد بود. برنامه\u200Cهای خود را مطابق با تقویم تعطیلات تنظیم کنید.",
+        "en": "Annual performance appraisal is starting. Please complete the forms in the HRM system."
+    }
+}, {
+    "key": "complete-form",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "تکمیل فرم",
+        "en": "Complete form"
+    }
+}, {
+    "key": "discount-code",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "کد تخفیف",
+        "en": "Discount code"
+    }
+}, {
+    "key": "discount-code-description",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "به مناسبت تولد شرکت، ۱۰٪ تخفیف ویژه؛ برای همه کارکنان در فروشگاه پویاشاپ لحاظ شده است.",
+        "en": "On the occasion of the company's birthday, 10% special discount; It is included for all employees in the Poyashop store."
+    }
+}, {
+    "key": "copy",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "کپی کردن",
+        "en": "Copy"
+    }
 }
 ]
