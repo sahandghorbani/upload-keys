@@ -2399,4 +2399,38 @@
         "en": ".You cannot access this module"
     }
 }
+, {
+    "key": "announcements",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "اعلانات",
+        "en": "Announcements"
+    }
+}, {
+    "key": "user-panel",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "پنل کاربری",
+        "en": "User panel"
+    }
+}, {
+    "key": "chat-room",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "چت روم",
+        "en": "Chat room"
+    }
+}
 ]
