@@ -1993,7 +1993,8 @@
             "home"
         ],
         "multiLine": false,
-        "maxLength": 50
+        "maxLength":50,
+        "t": {"fa": "صفحه {{x}} در حال ساخت است." ,"en": ".Currently building the {{x}} page"}
     },
     {
         "key": "maxchar-limit-edit-password-err",
@@ -2360,6 +2361,42 @@
     "t": {
         "fa": "کپی کردن",
         "en": "Copy"
+    }
+}
+, {
+    "key": "save",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "ذخیره",
+        "en": "Save"
+    }
+}
+, {
+    "key": "restricted-access",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "محدودیت دسترسی",
+        "en": "Restricted access"
+    }
+}
+, {
+    "key": "restricted-access-body",
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "امکان دستیابی به این ماژول برای شما وجود ندارد.",
+        "en": ".You cannot access this module"
     }
 }
 ]
