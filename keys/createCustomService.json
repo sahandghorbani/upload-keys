@@ -1,1 +1,1 @@
-{"key":"createCustomService","namespaces":["custom-service"],"multiLine":false,"maxLength":50,"t":{"fa":"ایجاد سرویس","en":"Create Custom Service"}}
+{"key":"createCustomService","namespaces":["service"],"multiLine":false,"maxLength":50,"t":{"fa":"ایجاد سرویس","en":"Create Custom Service"}}

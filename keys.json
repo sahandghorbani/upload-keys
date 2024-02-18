@@ -14,7 +14,7 @@
     {
         "key": "createCustomService",
         "namespaces": [
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50,
@@ -24,9 +24,21 @@
         }
     },
     {
+        "key": "create-form",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "ایجاد فرم",
+            "en": "Create Form"
+        }
+    },
+    {
         "key": "icon",
         "namespaces": [
-            "custom-service",
+            "service",
             "general"
         ],
         "multiLine": false,
@@ -39,7 +51,7 @@
     {
         "key": "module",
         "namespaces": [
-            "custom-service",
+            "service",
             "general"
         ],
         "multiLine": false,
@@ -52,7 +64,7 @@
     {
         "key": "route",
         "namespaces": [
-            "custom-service",
+            "service",
             "general"
         ],
         "multiLine": false,
@@ -65,7 +77,7 @@
     {
         "key": "order",
         "namespaces": [
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50,
@@ -163,7 +175,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -181,7 +193,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -212,7 +224,7 @@
         },
         "namespaces": [
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -230,7 +242,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -248,7 +260,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -266,7 +278,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service"
 
         ],
         "multiLine": false,
@@ -280,20 +292,20 @@
         },
         "namespaces": [
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
     },
     {
-        "key": "custom-service",
+        "key": "service",
         "t": {
             "fa" : "سرویس ساز" ,
             "en" : "Service Builder"
         },
         "namespaces": [
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -306,7 +318,7 @@
         },
         "namespaces": [
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -320,7 +332,7 @@
         "namespaces": [
             "sidebar",
             "general",
-            "custom-service",
+            "service",
             "hierarchy",
             "structure",
             "dashboard",
@@ -365,7 +377,8 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service",
+            "general"
 
         ],
         "multiLine": false,
@@ -392,7 +405,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -435,7 +448,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "custom-service","home"
+            "service","home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -525,6 +538,7 @@
             "dashboard",
             "position",
             "role",
+            "general",
             "employee",
             "formBuilder",
             "workflowStatus",
@@ -656,7 +670,7 @@
         "namespaces": [
             "sidebar",
             "general",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -670,7 +684,7 @@
         "namespaces": [
             "sidebar",
             "general",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -691,13 +705,13 @@
     {
         "key": "scm",
         "t": {
-            "fa" : "مدیریت ارتباط با مشتری" ,
+            "fa" : "مدیریت زنجیره تامین" ,
             "en" : "Supply Chain Management"
         },
         "namespaces": [
             "sidebar",
             "general",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -711,7 +725,7 @@
         "namespaces": [
             "sidebar",
             "general",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -732,7 +746,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "custom-service"
+            "service"
 
         ],
         "multiLine": false,
@@ -762,7 +776,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -781,7 +795,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -801,7 +815,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "custom-service"
+            "service"
 
         ],
         "multiLine": false,
@@ -1497,7 +1511,8 @@
             "general",
             "workflowBuilder",
             "leave",
-            "sidebar"
+            "sidebar",
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1516,7 +1531,8 @@
             "general",
             "workflowBuilder",
             "leave",
-            "sidebar"
+            "sidebar",
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1524,7 +1540,46 @@
     {
         "key": "edit-workflow-Status",
         "namespaces": [
-            "workflowStatus"
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "update-entity",
+        "t": {
+            "fa":"ویرایش موجودیت" ,
+            "en":"Update Entity"
+        }    ,
+        "namespaces": [
+            "service",
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "update-form",
+        "t": {
+            "fa":"ویرایش فرم" ,
+            "en":"Update Form"
+        }    ,
+        "namespaces": [
+            "service",
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "create-from",
+        "t": {
+            "fa":"ایجاد فرم" ,
+            "en":"Create Form"
+        }    ,
+        "namespaces": [
+            "service",
+            "general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1543,7 +1598,8 @@
             "general",
             "workflowBuilder",
             "leave",
-            "sidebar"
+            "sidebar",
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1559,7 +1615,7 @@
     {
         "key": "edit-workflow-status",
         "namespaces": [
-            "workflowStatus"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1567,7 +1623,7 @@
     {
         "key": "start",
         "namespaces": [
-            "workflowStatus"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1583,7 +1639,7 @@
     {
         "key": "done",
         "namespaces": [
-            "workflowStatus"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1591,11 +1647,38 @@
     {
         "key": "workflow-status",
         "namespaces": [
-            "workflowStatus"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
     },
+    {
+        "key": "update-workflow",
+        "t": {
+            "fa": "ویرایش جریان کار" ,
+            "en" : "Update Workflow"
+        },
+        "namespaces": [
+            "service",
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "create-workflow",
+        "t": {
+            "fa": "ایجاد جریان کار" ,
+            "en" : "Create Workflow"
+        },
+        "namespaces": [
+            "service",
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+
     {
         "key": "creation-date",
         "namespaces": [
@@ -1676,12 +1759,11 @@
     },
     {
         "key": "pending",
-        "tr": {
+        "t": {
             "fa": "در انتظار",
             "en" : "Pending"
         }    ,
         "namespaces": [
-            "workflowStatus",
             "hierarchy",
             "structure",
             "dashboard",
@@ -1693,7 +1775,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "custom-service"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50
