@@ -2433,4 +2433,16 @@
         "en": "Chat room"
     }
 }
+, {
+    "key": "entity",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "موجودیت/پروسه",
+        "en": "Entity/Process"
+    }
+}
 ]
