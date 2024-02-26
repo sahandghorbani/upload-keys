@@ -2434,7 +2434,7 @@
     }
 }
 , {
-    "key": "entity",
+    "key": "entity-process",
     "namespaces": [
         "service"
     ],
@@ -2443,6 +2443,98 @@
     "t": {
         "fa": "موجودیت/پروسه",
         "en": "Entity/Process"
+    }
+}, {
+    "key": "entity",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "موجودیت",
+        "en": "Entity"
+    }
+}, {
+    "key": "input-values",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مقادیر ورودی",
+        "en": "Input values"
+    }
+}, {
+    "key": "items",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "آیتم ها",
+        "en": "Items"
+    }
+}, {
+    "key": "filter",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "فیلتر",
+        "en": "Filter"
+    }
+}
+, {
+    "key": "order-by",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مرتب سازی",
+        "en": "Order by"
+    }
+}
+, {
+    "key": "view-order",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "ترتیب نمایش",
+        "en": "View order"
+    }
+}
+, {
+    "key": "value",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مقدار",
+        "en": "value"
+    }
+}
+, {
+    "key": "key",
+    "namespaces": [
+        "service","general"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "شناسه",
+        "en": "Key"
     }
 }
 ]
