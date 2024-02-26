@@ -436,6 +436,104 @@
         "maxLength": 50
     },
     {
+        "key": "relation",
+        "t": {
+            "fa" : "رابطه" ,
+            "en" : "Relation"
+        },
+        "namespaces": [
+            "service",
+            "general",
+            "sidebar"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "properties",
+        "t": {
+            "fa" : "مقادیر ورودی" ,
+            "en" : "Properties"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "duplicate-property-key",
+        "t": {
+            "fa" : "این شناسه قبلا ثبت شده است" ,
+            "en" : "this key is duplicated"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "update-relation",
+        "t": {
+            "fa" : "ویرایش رابطه" ,
+            "en" : "Edit Relation"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "maxNumber20",
+        "t": {
+            "fa" : "تعداد کاراکترهای وارد شده نمیتواند از 20 تا بیشتر باشد" ,
+            "en" : "The entered number of characters cannot be more than 20"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 100
+    },
+    {
+        "key": "sort",
+        "t": {
+            "fa" : "مرتب سازی" ,
+            "en" : "Sort"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "property-key-invalid-err",
+        "t": {
+            "fa" : "این فیلد نامعتبر است" ,
+            "en" : "This field is invalid"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "create-relation",
+        "t": {
+            "fa" : "ایجاد رابطه" ,
+            "en" : "Create Relation"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
         "key": "requiredInput",
         "namespaces": [
             "hierarchy",
@@ -2441,8 +2539,21 @@
     "multiLine": false,
     "maxLength": 50,
     "t": {
-        "fa": "موجودیت/پروسه",
-        "en": "Entity/Process"
+        "fa": "موجودیت",
+        "en": "Entity"
+    }
+},
+    {
+        "key": "workflow",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "پروسه",
+            "en": "Workflow"
+        }
     }
 }, {
     "key": "entity",
