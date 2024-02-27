@@ -2554,8 +2554,8 @@
             "fa": "پروسه",
             "en": "Workflow"
         }
-    }
-}, {
+    },
+ {
     "key": "entity",
     "namespaces": [
         "service"
@@ -2647,5 +2647,17 @@
         "fa": "شناسه",
         "en": "Key"
     }
-}
+},
+    {
+        "key": "slug-characters-err",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": " کاراکترهای \\/^&?=#: % غیر مجاز است",
+            "en": "The characters /^&?=#: % are not allowed"
+        }
+    }
 ]
