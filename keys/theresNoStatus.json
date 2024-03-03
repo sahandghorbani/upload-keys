@@ -1,1 +1,1 @@
-{"key":"theresNoStatus","namespaces":["workflowStatus"],"multiLine":false,"maxLength":50}
+{"key":"theresNoStatus","namespaces":["workflowStatus","service"],"multiLine":false,"maxLength":50}

@@ -1590,7 +1590,7 @@
     {
         "key": "theresNoStatus",
         "namespaces": [
-            "workflowStatus"
+            "workflowStatus","service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -2658,6 +2658,18 @@
         "t": {
             "fa": " کاراکترهای \\/^&?=#: % غیر مجاز است",
             "en": "The characters /^&?=#: % are not allowed"
+        }
+    },
+    {
+        "key": "go-to-form-builder",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "ورود به فرم ساز",
+            "en": "Go To Form Builder"
         }
     }
 ]
