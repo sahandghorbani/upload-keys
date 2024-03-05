@@ -2671,5 +2671,210 @@
             "fa": "ورود به فرم ساز",
             "en": "Go To Form Builder"
         }
+    },
+    {
+        "key": "create-tables",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "ایجاد جدول ({{x}})",
+            "en": "Create tables ({{x}})"
+        }
+    },
+    {
+        "key": "tables-general-setting-notification",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 100,
+        "t": {
+            "fa":"برای url params از : در Slug استفاده کنید (my leave/:id)",
+            "en": "Use : in Slug for url params (my leave/:id)"
+        }
+    },
+    {
+        "key": "general-settings",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "تنظیمات کلی",
+            "en": "General settings"
+        }
+    },
+    {
+        "key": "tables-input-values",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "مقادیر ورودی جدول",
+            "en": "Table input values"
+        }
+    },
+    {
+        "key": "tables-header-operations",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "عملیات بالای جدول",
+            "en": "Table header operations"
+        }
+    },
+    {
+        "key": "tables-row-input-values",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "مقادیر ورودی سطر",
+            "en": "Row input values"
+        }
+    },
+    {
+        "key": "tables-Columns",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "ستون ها",
+            "en": "Columns"
+        }
+    },
+    {
+        "key": "tables-row-operations",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "عملیات سطر",
+            "en": "Row operations"
+        }
+    },
+    {
+        "key": "tables-filter-Sorting",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "فیلتر و مرتب سازی",
+            "en": "Filter and sorting"
+        }
+    },
+    {
+        "key": "tables-Sidebar",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "سایدبار",
+            "en": "Sidebar"
+        }
     }
+,
+    {
+        "key": "previous-step",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "قبلی",
+            "en": "Previous"
+        }
+    }
+,
+    {
+        "key": "next-step",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "مرحله بعدی",
+            "en": "Next step"
+        }
+    }
+,
+    {
+        "key": "tables-submit",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "پایان و ثبت",
+            "en": "Finish and submit"
+        }
+    },
+    {
+        "key": "tables-tab",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "جداول",
+            "en": "Tables"
+        }
+    },
+    {
+        "key": "forms-tab",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "فرم ها",
+            "en": "Forms"
+        }
+    },{
+    "key": "forms-tab",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "فرم ها",
+        "en": "Forms"
+    }
+
+},{
+    "key": "workflow-management",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "مدیریت پروسه",
+        "en": "Workflow management"
+    }}
 ]
