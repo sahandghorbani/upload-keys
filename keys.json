@@ -1517,7 +1517,7 @@
     {
         "key": "roles",
         "namespaces": [
-            "employee"
+            "employee","service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1908,7 +1908,8 @@
             "leave",
             "role",
             "sidebar",
-            "employee"
+            "employee","service"
+
         ],
         "multiLine": false,
         "maxLength": 50
@@ -2049,7 +2050,9 @@
         "namespaces": [
             "role",
             "structure",
-            "employee"
+            "employee",
+            "service"
+
         ],
         "multiLine": false,
         "maxLength": 70
@@ -2876,5 +2879,17 @@
     "t": {
         "fa": "مدیریت پروسه",
         "en": "Workflow management"
-    }}
+    }},
+    {
+        "key": "tables-properties",
+        "t": {
+            "fa" : "مقادیر ورودی جدول" ,
+            "en" : "Tables properties"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    }
 ]
