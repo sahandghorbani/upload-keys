@@ -422,7 +422,7 @@
             "formBuilder",
             "workflowStatus",
             "workflowBuilder",
-            "leave"
+            "leave","service"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -742,7 +742,8 @@
             "formBuilder",
             "workflowStatus",
             "workflowBuilder",
-            "leave"
+            "leave",
+            "service"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -2681,10 +2682,10 @@
             "service"
         ],
         "multiLine": false,
-        "maxLength": 50,
+        "maxLength": 80,
         "t": {
-            "fa": "ایجاد جدول ({{x}})",
-            "en": "Create tables ({{x}})"
+            "fa": "ایجاد جدول (<span style=\"color:#AEE9FF\">{{x}}</span>)",
+            "en": "Create tables (<span style=\"color:#AEE9FF\">{{x}}</span>)"
         }
     },
     {
@@ -2891,5 +2892,360 @@
         ],
         "multiLine": false,
         "maxLength": 50
+    },
+    {
+        "key": "entity-reference",
+        "t": {
+            "fa" : "موجودیت" ,
+            "en" : "Entity"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "process-reference",
+        "t": {
+            "fa" : "پروسه" ,
+            "en" : "Process"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "process-management-reference",
+        "t": {
+            "fa" : "مدیریت پروسه" ,
+            "en" : "Process management"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "disable-condition",
+        "t": {
+            "fa" : "شرط غیر فعال کردن" ,
+            "en" : "Disable condition"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "tables-query-param",
+        "t": {
+            "fa" : "پارامتر های  کوئری" ,
+            "en" : "Query parameters"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "tables-url-params",
+        "t": {
+            "fa" : "پارامتر های URL" ,
+            "en" : "URL parameters"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "tables-sidebar",
+        "t": {
+            "fa" : "سایدبار" ,
+            "en" : "Sidebar"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "create-button",
+        "t": {
+            "fa" : "دکمه ایجاد" ,
+            "en" : "Create button"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "back-button",
+        "t": {
+            "fa" : "دکمه بازگشت" ,
+            "en" : "Back button"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "custom-button",
+        "t": {
+            "fa" : "دکمه سفارشی" ,
+            "en" : "Custom button"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+
+    {
+        "key": "click-operation-row",
+        "t": {
+            "en" : "Click operation on each row" ,
+            "fa" : "عملیات کلیک بر روی هر سطر"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "custom",
+        "t": {
+            "en" : "Custom" ,
+            "fa" : "سفارشی"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "nothing",
+        "t": {
+            "en" : "Nothing" ,
+            "fa" : "هیچکدام"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "action-custom-click-row",
+        "t": {
+            "en" : "Custom operations on each row" ,
+            "fa" : "عملیات سفارشی بر روی هر سطر"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "condition",
+        "t": {
+            "en" : "Condition" ,
+            "fa" : "شرط"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "services",
+        "t": {
+            "en" : "Services" ,
+            "fa" : "سرویس ها"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    }
+,
+    {
+        "key": "services",
+        "t": {
+            "en" : "Services" ,
+            "fa" : "سرویس ها"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "operation-type",
+        "t": {
+            "en" : "Operation type" ,
+            "fa" : "نوع عملیات"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    }
+,
+    {
+        "key": "button-title",
+        "t": {
+            "en" : "button title" ,
+            "fa" : "عنوان دکمه"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "more-operations-row",
+        "t": {
+            "en" : "More operations for each row" ,
+            "fa" : "عملیات بیشتر برای هر سطر"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "table",
+        "t": {
+            "en" : "Table" ,
+            "fa" : "جدول"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
+        "key": "create-tables-service-name",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "<span style=\"color:#AEE9FF\">{{x}}</span>",
+            "en": "<span style=\"color:#AEE9FF\">{{x}}</span>"
+        }
+    },
+    {
+        "key": "min-slug",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "حداقل تعداد کاراکتر در هر slug یک می باشد",
+            "en": "The minimum number of characters per slug is one"
+        }
+    }
+,
+    {
+        "key": "max-slug",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "حداکثر تعداد کاراکتر در هر  slug بیست می باشد",
+            "en": "The maximum number of characters in each slug is twenty"
+        }
+    }
+,
+    {
+        "key": "max-slugs",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "حداکثر تعداد slug 20 می باشد",
+            "en": "The maximum number of slugs is 20"
+        }
+    }
+,
+    {
+        "key": "idError",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "کلمه id مجاز نمی باشد",
+            "en": "The word id is not allowed"
+        }
+    },
+    {
+        "key": "duplicateSlugError",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "url params تکراری است",
+            "en": "url params is duplicated"
+        }
+    },
+    {
+        "key": "colonError",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": ": مجاز نمی باشد",
+            "en": ": Not allowed"
+        }
+    }
+,
+    {
+        "key": "key-starts-with-number",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":80,
+        "t": {
+            "fa": "شروع با عدد مجاز نیست.",
+            "en": "Starting with a number is not allowed."
+        }
     }
 ]
