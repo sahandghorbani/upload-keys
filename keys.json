@@ -214,7 +214,11 @@
             "general"
         ],
         "multiLine": false,
-        "maxLength": 50
+        "maxLength": 50,
+        "t": {
+            "fa" : "رتبه" ,
+            "en" : "Edit Custom Service"
+        }
     },
     {
         "key": "editCustomService",
@@ -3246,6 +3250,90 @@
         "t": {
             "fa": "شروع با عدد مجاز نیست.",
             "en": "Starting with a number is not allowed."
+        }
+    },
+    {
+        "key": "tab-info-entity",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "موجودیت ها به واحدهای اطلاعاتی با ویژگی ها و فیلدهای تعریف شده گفته می شود که شامل : برند، محصول، سند و ... می شود",
+            "en": "Entities are information units with defined characteristics and fields, which include: brand, product, document, etc."
+        }
+    },
+    {
+        "key": "tab-info-form",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "قالبی ساختارمند  در فرایندها است که شامل: مرخصی، درخواست خرید و... می باشد.",
+            "en": "It is a structured format in processes that include: leave, purchase request, etc."
+        }
+    },
+    {
+        "key": "tab-info-workflow-status",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "نشان می دهد که یک فعالیت در چه مرحله ای از فرایند قرار دارد.",
+            "en": "It shows what stage of the process an activity is in."
+        }
+    },
+    {
+        "key": "tab-info-workflow-status",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "نشان می دهد که یک فعالیت در چه مرحله ای از فرایند قرار دارد.",
+            "en": "It shows what stage of the process an activity is in."
+        }
+    },
+    {
+        "key": "tab-info-workflow",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "مجموعه ای از فعالیت ها که با ترتیب مشخصی اجرا می شوند، تا یک هدف خاص را برآورده کنند.",
+            "en": "A set of activities that are performed in a specific order to achieve a specific goal."
+        }
+    },
+    {
+        "key": "tab-info-table",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "جداولی که در سامانه مورد استفاده قرار میگیرند، در این قسمت ایجاد می شوند.",
+            "en": "The tables used in the system are created in this section."
+        }
+    },
+    {
+        "key": "tab-info-relation",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": true,
+        "maxLength":200,
+        "t": {
+            "fa": "امکان انتخاب موارد مرتبط و برقراری ارتباط بین آنها را فراهم می سازد.",
+            "en": "It provides the possibility of selecting related items and communicating between them."
         }
     }
 ]
