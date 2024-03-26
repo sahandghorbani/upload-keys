@@ -3336,4 +3336,17 @@
             "en": "It provides the possibility of selecting related items and communicating between them."
         }
     }
+,
+    {
+        "key": "admin-access",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":50,
+        "t": {
+            "fa": "دسترسی مدیریت",
+            "en": "Admin access"
+        }
+    }
 ]
