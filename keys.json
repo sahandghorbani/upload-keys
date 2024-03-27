@@ -468,7 +468,7 @@
     {
         "key": "duplicate-property-key",
         "t": {
-            "fa" : "این شناسه قبلا ثبت شده است" ,
+            "fa" : "این شناسه تکراری است." ,
             "en" : "this key is duplicated"
         },
         "namespaces": [
