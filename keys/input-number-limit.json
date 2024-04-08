@@ -1,0 +1,1 @@
+{"key":"input-number-limit","namespaces":["hierarchy","structure","general","dashboard","position","role","employee","formBuilder","workflowStatus","workflowBuilder","leave","service"],"t":{"fa":"{{x}} مقدار {{inputName}},{{limitNumber}} می باشد","en":"The {{x}} number of {{inputName}} is {{limitNumber}}"},"multiLine":false,"maxLength":70}

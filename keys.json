@@ -734,24 +734,7 @@
         "multiLine": false,
         "maxLength": 70
     },
-    {
-        "key": "title",
-        "namespaces": [
-            "hierarchy",
-            "structure",
-            "dashboard",
-            "position",
-            "role",
-            "employee",
-            "formBuilder",
-            "workflowStatus",
-            "workflowBuilder",
-            "leave",
-            "service"
-        ],
-        "multiLine": false,
-        "maxLength": 70
-    },
+
     {
         "key": "addPosition",
         "namespaces": [
@@ -3347,6 +3330,146 @@
         "t": {
             "fa": "دسترسی مدیریت",
             "en": "Admin access"
+        }
+    },
+    {
+        "key": "min-width",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":50,
+        "t": {
+            "fa": "حداقل عرض",
+            "en": "Min width"
+        }
+    },
+    {
+        "key": "width",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength":50,
+        "t": {
+            "fa": "عرض",
+            "en": "Width"
+        }
+    },
+    {
+        "key": "title",
+        "namespaces": [
+            "hierarchy",
+            "structure",
+            "general",
+            "dashboard",
+            "position",
+            "role",
+            "employee",
+            "formBuilder",
+            "workflowStatus",
+            "workflowBuilder",
+            "leave",
+            "service"
+        ],
+        "t": {
+            "en": "Title",
+            "fa": "عنوان"
+        },
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
+        "key": "input-number-limit",
+        "namespaces": [
+            "hierarchy",
+            "structure",
+            "general",
+            "dashboard",
+            "position",
+            "role",
+            "employee",
+            "formBuilder",
+            "workflowStatus",
+            "workflowBuilder",
+            "leave",
+            "service"
+        ],
+        "t": {
+            "fa": "{{x}} مقدار {{inputName}},{{limitNumber}} می باشد",
+            "en": "The {{x}} number of {{inputName}} is {{limitNumber}}"
+        },
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
+        "key": "minimum",
+        "namespaces": [
+            "hierarchy",
+            "structure",
+            "general",
+            "dashboard",
+            "position",
+            "role",
+            "employee",
+            "formBuilder",
+            "workflowStatus",
+            "workflowBuilder",
+            "leave",
+            "service"
+        ],
+        "t": {
+            "en": "minimum",
+            "fa": "حداقل"
+        },
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
+        "key": "maximum",
+        "namespaces": [
+            "hierarchy",
+            "structure",
+            "general",
+            "dashboard",
+            "position",
+            "role",
+            "employee",
+            "formBuilder",
+            "workflowStatus",
+            "workflowBuilder",
+            "leave",
+            "service"
+        ],
+        "t": {
+            "en": "maximum",
+            "fa": "حداکثر"
+        },
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
+        "key": "accordion-dynamic-name",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 80,
+        "t": {
+            "fa": "(<span style=\"color:#AEE9FF\">{{x}}</span>) {{y}} ",
+            "en": " {{y}} (<span style=\"color:#AEE9FF\">{{x}}</span>)"
+        }
+    },
+    {
+        "key": "nothing-found",
+        "namespaces": [
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "چیزی یافت نشد",
+            "en": "Nothing found"
         }
     }
 ]
