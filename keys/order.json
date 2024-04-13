@@ -1,1 +1,1 @@
-{"key":"order","namespaces":["service"],"multiLine":false,"maxLength":50,"t":{"fa":"ترتیب","en":"Order"}}
+{"key":"order","namespaces":["service","general"],"multiLine":false,"maxLength":50,"t":{"fa":"ترتیب","en":"Order"}}

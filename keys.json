@@ -77,7 +77,8 @@
     {
         "key": "order",
         "namespaces": [
-            "service"
+            "service",
+            "general"
         ],
         "multiLine": false,
         "maxLength": 50,
@@ -803,10 +804,10 @@
         "maxLength": 70
     },
     {
-        "key": "accounting",
+        "key": "fam",
         "t": {
             "fa" : "مدیریت مالی و حسابداری" ,
-            "en" : "Accounting"
+            "en" : "FAM"
         },
         "namespaces": [
             "sidebar",
@@ -1000,7 +1001,7 @@
         "key": "bpms",
         "namespaces": [
             "sidebar",
-            "bpms"
+            "BPMS"
         ],
         "multiLine": false,
         "maxLength": 70
