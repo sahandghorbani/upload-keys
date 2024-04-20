@@ -2040,7 +2040,8 @@
             "role",
             "structure",
             "employee",
-            "service"
+            "service",
+            "general"
 
         ],
         "multiLine": false,
