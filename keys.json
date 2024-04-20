@@ -430,7 +430,11 @@
             "leave","service"
         ],
         "multiLine": false,
-        "maxLength": 50
+        "maxLength": 50,
+        "t": {
+        "fa" : "حذف" ,
+        "en" : "Delete"
+    }
     },
     {
         "key": "theresNoHierarchy",
@@ -3454,11 +3458,9 @@
         "namespaces": [
             "service"
         ],
-        "multiLine": false,
-        "maxLength": 80,
         "t": {
-            "fa": "(<span style=\"color:#AEE9FF\">{{x}}</span>) {{y}} ",
-            "en": " {{y}} (<span style=\"color:#AEE9FF\">{{x}}</span>)"
+            "fa": "<span style=\"color:#AEE9FF\">{{x}}</span>",
+            "en": "<span style=\"color:#AEE9FF\">{{x}}</span>"
         }
     },
     {
@@ -3473,4 +3475,39 @@
             "en": "Nothing found"
         }
     }
+, {
+    "key": "restricted-words-error",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 150,
+    "t": {
+        "fa": "استفاده از کلمات کلیدی غیر مجاز است.",
+        "en": "Keywords are not allowed."
+    }
+},
+    {
+        "key": "predefinedVariables-error",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 150,
+        "t": {
+            "fa": "استفاده از متغیرهای از پیش تعریف شده، غیر مجاز است.",
+            "en": "Using predefined variables is not allowed."
+        }
+    },{
+    "key": "entity-process-items",
+    "t": {
+        "fa" : "موجودیت / پروسه" ,
+        "en" : "Entity/Process"
+    },
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50
+}
 ]
