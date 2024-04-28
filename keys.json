@@ -1306,6 +1306,10 @@
         "namespaces": [
             "employee"
         ],
+        "t": {
+            "fa" : "و ...",
+            "en" : "... "
+        },
         "multiLine": false,
         "maxLength": 50
     },
