@@ -1198,7 +1198,8 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "sidebar"
+            "sidebar",
+            "general"
         ],
         "multiLine": false,
         "maxLength": 70
