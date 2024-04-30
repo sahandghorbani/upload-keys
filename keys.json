@@ -507,6 +507,18 @@
         "maxLength": 100
     },
     {
+        "key": "minNumber2",
+        "t": {
+            "fa" : "تعداد کاراکترهای وارد شده نمیتواند از 2 تا کمتر باشد" ,
+            "en" : "The entered number of characters cannot be less than 2"
+        },
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 100
+    },
+    {
         "key": "sort",
         "t": {
             "fa" : "مرتب سازی" ,
@@ -1223,7 +1235,7 @@
     {
         "key": "maxchar-limit-password-err",
         "namespaces": [
-            "employee"
+            "employee" , "general"
         ],
         "multiLine": true,
         "maxLength": 100
@@ -1339,7 +1351,7 @@
     {
         "key": "username",
         "namespaces": [
-            "employee" ,"home"
+            "employee" ,"home" ,"general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1355,7 +1367,7 @@
     {
         "key": "minchar-limit-password-err",
         "namespaces": [
-            "employee" ,"home"
+            "employee" ,"home","general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1376,7 +1388,7 @@
     {
         "key": "lowercase-limit-password-err",
         "namespaces": [
-            "employee"
+            "employee" ,"general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1385,7 +1397,7 @@
     {
         "key": "uppercase-limit-password-err",
         "namespaces": [
-            "employee"
+            "employee" ,"general"
         ],
         "multiLine": false,
         "maxLength": 60
@@ -1417,7 +1429,7 @@
     {
         "key": "min-number-limit-password-err",
         "namespaces": [
-            "employee"
+            "employee" ,"general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1433,27 +1445,24 @@
     {
         "key": "symbols-limit-password-err",
         "namespaces": [
-            "employee"
+            "employee" , "general"
         ],
         "multiLine": false,
         "maxLength": 100
     },
     {
         "key": "duplicate-password-err",
-        "namespaces": [
-            "employee"
-        ],
+        "namespaces": ["employee" , "general"],
         "multiLine": false,
         "maxLength": 50
     },
     {
         "key": "match-duplicate-password-err",
-        "namespaces": [
-            "employee" ,"home" ,"general"
-        ],
+        "namespaces": ["employee", "home", "general"],
         "multiLine": false,
         "maxLength": 50
     },
+
     {
         "key": "no-validation-email-err",
         "namespaces": [
@@ -1582,7 +1591,11 @@
             "workflowStatus"
         ],
         "multiLine": false,
-        "maxLength": 50
+        "maxLength": 50,
+        "t":{
+            "fa" : "وضعیت فرایند",
+            "en" : "Workflow Status"
+        }
     },
     {
         "key": "theresNoStatus",
@@ -2465,7 +2478,7 @@
 , {
     "key": "save",
     "namespaces": [
-        "home"
+        "home" ,"general"
     ],
     "multiLine": false,
     "maxLength": 150,
