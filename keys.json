@@ -3477,8 +3477,8 @@
             "service"
         ],
         "t": {
-            "fa": "<span style=\"color:#AEE9FF\">{{x}}</span>",
-            "en": "<span style=\"color:#AEE9FF\">{{x}}</span>"
+            "fa": "(<span style=\"color:#AEE9FF\">{{accordionTitle}}</span>) {{accordionName}}",
+            "en": "{{accordionName}} (<span style=\"color:#AEE9FF\"> {{accordionTitle}}</span>)"
         }
     },
     {
@@ -3527,5 +3527,27 @@
     ],
     "multiLine": false,
     "maxLength": 50
+},{
+    "key": "to-use-the-user-account-,-please-change-your-initial-password-first",
+    "t": {
+        "fa" : "برای استفاده از حساب کاربری، لطفاً ابتدا رمز عبور اولیه خود را تغییر دهید" ,
+        "en" : "To use the user account, please change your initial password first\n"
+    },
+    "namespaces": [
+        "general"
+    ],
+    "multiLine": true,
+    "maxLength": 100
+},{
+    "key": "table-column",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "ستون",
+        "en": "Column"
+    }
 }
 ]
