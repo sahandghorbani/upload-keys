@@ -3352,7 +3352,7 @@
         "multiLine": false,
         "maxLength":50,
         "t": {
-            "fa": "دسترسی مدیریت",
+            "fa": "دسترسی ادمین",
             "en": "Admin access"
         }
     },
@@ -3490,7 +3490,7 @@
             "service"
         ],
         "t": {
-            "fa": "(<span style=\"color:#AEE9FF\">{{accordionTitle}}</span>) {{accordionName}}",
+            "fa": "{{accordionName}} (<span style=\"color:#AEE9FF\">{{accordionTitle}}</span>) ",
             "en": "{{accordionName}} (<span style=\"color:#AEE9FF\"> {{accordionTitle}}</span>)"
         }
     },
@@ -3561,6 +3561,40 @@
     "t": {
         "fa": "ستون",
         "en": "Column"
+    }
+},{
+    "key": "max-percentage",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "درصد انتخابی بیشتر از حد مجاز است.",
+        "en": "The selected percentage is more than allowed."
+    }
+},{
+    "key": "update-tables",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "ویرایش جداول",
+        "en": "Update tables"
+    }
+}
+,{
+    "key": "create-tables",
+    "namespaces": [
+        "service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": "ایجاد جداول",
+        "en": "Create tables"
     }
 }
 ]
