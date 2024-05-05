@@ -1668,6 +1668,19 @@
         "maxLength": 50
     },
     {
+        "key": "create-entity",
+        "t": {
+            "fa":"ایجاد موجودیت" ,
+            "en":"Create Entity"
+        }    ,
+        "namespaces": [
+            "service",
+            "general"
+        ],
+        "multiLine": false,
+        "maxLength": 50
+    },
+    {
         "key": "update-form",
         "t": {
             "fa":"ویرایش فرم" ,
