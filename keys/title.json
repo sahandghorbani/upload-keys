@@ -1,1 +1,1 @@
-{"key":"title","namespaces":["hierarchy","structure","general","dashboard","position","role","employee","formBuilder","workflowStatus","workflowBuilder","leave","service"],"t":{"en":"Title","fa":"عنوان"},"multiLine":false,"maxLength":70}
+{"key":"title","namespaces":["hierarchy","structure","dashboard","position","role","employee","formBuilder","workflowStatus","workflowBuilder","leave","service"],"multiLine":false,"maxLength":70}

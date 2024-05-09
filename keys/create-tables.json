@@ -1,1 +1,1 @@
-{"key":"create-tables","namespaces":["service"],"multiLine":false,"maxLength":50,"t":{"fa":"ایجاد جداول","en":"Create tables"}}
+{"key":"create-tables","namespaces":["service"],"multiLine":false,"maxLength":80,"t":{"fa":"ایجاد جدول (<span style=\"color:#AEE9FF\">{{x}}</span>)","en":"Create tables (<span style=\"color:#AEE9FF\">{{x}}</span>)"}}

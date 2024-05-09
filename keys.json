@@ -77,8 +77,7 @@
     {
         "key": "order",
         "namespaces": [
-            "service",
-            "general"
+            "service"
         ],
         "multiLine": false,
         "maxLength": 50,
@@ -194,7 +193,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "service"
+            "service" ,"general","pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -265,7 +264,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "service"
+            "service" ,"pageBuilder"  ,"general"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -283,7 +282,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "service"
+            "service" ,"pageBuilder"
 
         ],
         "multiLine": false,
@@ -410,7 +409,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "service"
+            "service","pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -430,11 +429,7 @@
             "leave","service"
         ],
         "multiLine": false,
-        "maxLength": 50,
-        "t": {
-        "fa" : "حذف" ,
-        "en" : "Delete"
-    }
+        "maxLength": 50
     },
     {
         "key": "theresNoHierarchy",
@@ -499,18 +494,6 @@
         "t": {
             "fa" : "تعداد کاراکترهای وارد شده نمیتواند از 20 تا بیشتر باشد" ,
             "en" : "The entered number of characters cannot be more than 20"
-        },
-        "namespaces": [
-            "service"
-        ],
-        "multiLine": false,
-        "maxLength": 100
-    },
-    {
-        "key": "minNumber2",
-        "t": {
-            "fa" : "تعداد کاراکترهای وارد شده نمیتواند از 2 تا کمتر باشد" ,
-            "en" : "The entered number of characters cannot be less than 2"
         },
         "namespaces": [
             "service"
@@ -644,7 +627,7 @@
             "formBuilder",
             "workflowStatus",
             "workflowBuilder",
-            "leave"
+            "leave" ,"pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -751,7 +734,24 @@
         "multiLine": false,
         "maxLength": 70
     },
-
+    {
+        "key": "title",
+        "namespaces": [
+            "hierarchy",
+            "structure",
+            "dashboard",
+            "position",
+            "role",
+            "employee",
+            "formBuilder",
+            "workflowStatus",
+            "workflowBuilder",
+            "leave",
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 70
+    },
     {
         "key": "addPosition",
         "namespaces": [
@@ -820,10 +820,10 @@
         "maxLength": 70
     },
     {
-        "key": "fam",
+        "key": "accounting",
         "t": {
             "fa" : "مدیریت مالی و حسابداری" ,
-            "en" : "FAM"
+            "en" : "Accounting"
         },
         "namespaces": [
             "sidebar",
@@ -879,7 +879,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "service"
+            "service","pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -918,7 +918,8 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "service"
+            "service" ,
+            "pageBuilder"
 
         ],
         "multiLine": false,
@@ -1017,7 +1018,7 @@
         "key": "bpms",
         "namespaces": [
             "sidebar",
-            "BPMS"
+            "bpms"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -1210,8 +1211,7 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "sidebar",
-            "general"
+            "sidebar"
         ],
         "multiLine": false,
         "maxLength": 70
@@ -1220,7 +1220,7 @@
         "key": "last-name",
         "namespaces": [
             "leave",
-            "employee"
+            "employee" ,"pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1236,7 +1236,7 @@
     {
         "key": "maxchar-limit-password-err",
         "namespaces": [
-            "employee" , "general"
+            "employee"
         ],
         "multiLine": true,
         "maxLength": 100
@@ -1318,10 +1318,6 @@
         "namespaces": [
             "employee"
         ],
-        "t": {
-            "fa" : "و ...",
-            "en" : "... "
-        },
         "multiLine": false,
         "maxLength": 50
     },
@@ -1352,7 +1348,7 @@
     {
         "key": "username",
         "namespaces": [
-            "employee" ,"home" ,"general"
+            "employee" ,"home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1368,7 +1364,7 @@
     {
         "key": "minchar-limit-password-err",
         "namespaces": [
-            "employee" ,"home","general"
+            "employee" ,"home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1389,7 +1385,7 @@
     {
         "key": "lowercase-limit-password-err",
         "namespaces": [
-            "employee" ,"general"
+            "employee"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1398,7 +1394,7 @@
     {
         "key": "uppercase-limit-password-err",
         "namespaces": [
-            "employee" ,"general"
+            "employee"
         ],
         "multiLine": false,
         "maxLength": 60
@@ -1430,7 +1426,7 @@
     {
         "key": "min-number-limit-password-err",
         "namespaces": [
-            "employee" ,"general"
+            "employee"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1446,24 +1442,27 @@
     {
         "key": "symbols-limit-password-err",
         "namespaces": [
-            "employee" , "general"
+            "employee"
         ],
         "multiLine": false,
         "maxLength": 100
     },
     {
         "key": "duplicate-password-err",
-        "namespaces": ["employee" , "general"],
+        "namespaces": [
+            "employee"
+        ],
         "multiLine": false,
         "maxLength": 50
     },
     {
         "key": "match-duplicate-password-err",
-        "namespaces": ["employee", "home", "general"],
+        "namespaces": [
+            "employee" ,"home" ,"general"
+        ],
         "multiLine": false,
         "maxLength": 50
     },
-
     {
         "key": "no-validation-email-err",
         "namespaces": [
@@ -1592,11 +1591,7 @@
             "workflowStatus"
         ],
         "multiLine": false,
-        "maxLength": 50,
-        "t":{
-            "fa" : "وضعیت فرایند",
-            "en" : "Workflow Status"
-        }
+        "maxLength": 50
     },
     {
         "key": "theresNoStatus",
@@ -1659,19 +1654,6 @@
         "t": {
             "fa":"ویرایش موجودیت" ,
             "en":"Update Entity"
-        }    ,
-        "namespaces": [
-            "service",
-            "general"
-        ],
-        "multiLine": false,
-        "maxLength": 50
-    },
-    {
-        "key": "create-entity",
-        "t": {
-            "fa":"ایجاد موجودیت" ,
-            "en":"Create Entity"
         }    ,
         "namespaces": [
             "service",
@@ -2075,8 +2057,7 @@
             "role",
             "structure",
             "employee",
-            "service",
-            "general"
+            "service"
 
         ],
         "multiLine": false,
@@ -2181,7 +2162,7 @@
 },{
     "key": "contact-us",
     "namespaces": [
-       "home"
+        "home"
     ],
     "multiLine": false,
     "maxLength": 50,
@@ -2254,7 +2235,7 @@
     "maxLength": 50,
     "t": {
         "fa": "وارد پنل کاربری خود شوید",
-        "en": "Login to your user panel"
+        "en": "Login"
     }
 },{
     "key": "logout-panel",
@@ -2280,16 +2261,16 @@
     }
 },{
     "key": "login-user-panel",
-        "namespaces": [
-            "home"
-        ],
-        "multiLine": false,
-        "maxLength": 50,
-        "t": {
-            "fa": " ورود به پنل",
-            "en": "Login panel"
-        }
-    },{
+    "namespaces": [
+        "home"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa": " ورود به پنل",
+        "en": "Login panel"
+    }
+},{
     "key": "logout",
     "namespaces": [
         "home"
@@ -2492,7 +2473,7 @@
 , {
     "key": "save",
     "namespaces": [
-        "home" ,"general"
+        "home"
     ],
     "multiLine": false,
     "maxLength": 150,
@@ -2583,18 +2564,18 @@
             "en": "Workflow"
         }
     },
- {
-    "key": "entity",
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 50,
-    "t": {
-        "fa": "موجودیت",
-        "en": "Entity"
-    }
-}, {
+    {
+        "key": "entity",
+        "namespaces": [
+            "service"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "موجودیت",
+            "en": "Entity"
+        }
+    }, {
     "key": "input-values",
     "namespaces": [
         "service","general"
@@ -3365,249 +3346,152 @@
         "multiLine": false,
         "maxLength":50,
         "t": {
-            "fa": "دسترسی ادمین",
+            "fa": "دسترسی مدیریت",
             "en": "Admin access"
         }
-    },
-    {
-        "key": "min-width",
-        "namespaces": [
-            "service"
-        ],
-        "multiLine": false,
-        "maxLength":50,
-        "t": {
-            "fa": "حداقل عرض",
-            "en": "Min width"
-        }
-    },
-    {
-        "key": "assign-to-the-highest-role",
-        "namespaces": [
-            "general"
-        ],
-        "multiLine": false,
-        "maxLength":50,
-        "t": {
-            "fa": "اختصاص به بالاترین نقش",
-            "en": "Assign to the highest role"
-        }
-    },
-    {
-        "key": "width",
-        "namespaces": [
-            "service"
-        ],
-        "multiLine": false,
-        "maxLength":50,
-        "t": {
-            "fa": "عرض",
-            "en": "Width"
-        }
-    },
-    {
-        "key": "title",
-        "namespaces": [
-            "hierarchy",
-            "structure",
-            "general",
-            "dashboard",
-            "position",
-            "role",
-            "employee",
-            "formBuilder",
-            "workflowStatus",
-            "workflowBuilder",
-            "leave",
-            "service"
-        ],
-        "t": {
-            "en": "Title",
-            "fa": "عنوان"
-        },
-        "multiLine": false,
-        "maxLength": 70
-    },
-    {
-        "key": "input-number-limit",
-        "namespaces": [
-            "hierarchy",
-            "structure",
-            "general",
-            "dashboard",
-            "position",
-            "role",
-            "employee",
-            "formBuilder",
-            "workflowStatus",
-            "workflowBuilder",
-            "leave",
-            "service"
-        ],
-        "t": {
-            "fa": "{{x}} مقدار {{inputName}},{{limitNumber}} می باشد",
-            "en": "The {{x}} number of {{inputName}} is {{limitNumber}}"
-        },
-        "multiLine": false,
-        "maxLength": 70
-    },
-    {
-        "key": "minimum",
-        "namespaces": [
-            "hierarchy",
-            "structure",
-            "general",
-            "dashboard",
-            "position",
-            "role",
-            "employee",
-            "formBuilder",
-            "workflowStatus",
-            "workflowBuilder",
-            "leave",
-            "service"
-        ],
-        "t": {
-            "en": "minimum",
-            "fa": "حداقل"
-        },
-        "multiLine": false,
-        "maxLength": 70
-    },
-    {
-        "key": "maximum",
-        "namespaces": [
-            "hierarchy",
-            "structure",
-            "general",
-            "dashboard",
-            "position",
-            "role",
-            "employee",
-            "formBuilder",
-            "workflowStatus",
-            "workflowBuilder",
-            "leave",
-            "service"
-        ],
-        "t": {
-            "en": "maximum",
-            "fa": "حداکثر"
-        },
-        "multiLine": false,
-        "maxLength": 70
-    },
-    {
-        "key": "accordion-dynamic-name",
-        "namespaces": [
-            "service"
-        ],
-        "t": {
-            "fa": "{{accordionName}} (<span style=\"color:#AEE9FF\">{{accordionTitle}}</span>) ",
-            "en": "{{accordionName}} (<span style=\"color:#AEE9FF\"> {{accordionTitle}}</span>)"
-        }
-    },
+    } ,
     {
         "key": "nothing-found",
         "namespaces": [
-            "general"
+            "service"
         ],
         "multiLine": false,
-        "maxLength": 50,
+        "maxLength":50,
         "t": {
             "fa": "چیزی یافت نشد",
             "en": "Nothing found"
         }
-    }
-, {
-    "key": "restricted-words-error",
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 150,
-    "t": {
-        "fa": "استفاده از کلمات کلیدی غیر مجاز است.",
-        "en": "Keywords are not allowed."
-    }
-},
+    } ,
     {
-        "key": "predefinedVariables-error",
+        "key": "min-row-limit",
         "namespaces": [
-            "service"
+            "pageBuilder"
         ],
         "multiLine": false,
-        "maxLength": 150,
+        "maxLength": 50,
         "t": {
-            "fa": "استفاده از متغیرهای از پیش تعریف شده، غیر مجاز است.",
-            "en": "Using predefined variables is not allowed."
+            "fa":"حداقل ردیف مجاز {{minRow}} می باشد" ,
+            "en": "The minimum allowed row is {{minRow}}"
         }
-    },{
-    "key": "entity-process-items",
-    "t": {
-        "fa" : "موجودیت / پروسه" ,
-        "en" : "Entity/Process"
-    },
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 50
-},{
-    "key": "to-use-the-user-account-,-please-change-your-initial-password-first",
-    "t": {
-        "fa" : "برای استفاده از حساب کاربری، لطفاً ابتدا رمز عبور اولیه خود را تغییر دهید" ,
-        "en" : "To use the user account, please change your initial password first\n"
-    },
-    "namespaces": [
-        "general"
-    ],
-    "multiLine": true,
-    "maxLength": 100
-},{
-    "key": "table-column",
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 50,
-    "t": {
-        "fa": "ستون",
-        "en": "Column"
+    }  ,
+    {
+        "key": "max-row-limit",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"حداکثر ردیف مجاز {{maxRow}} می باشد" ,
+            "en": "The maximum allowed row is {{maxRow}}"
+        }
+    } ,
+    {
+        "key": "add-new",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"افزودن جدید" ,
+            "en": "Add new"
+        }
+    } ,
+    {
+        "key": "creation-date",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"تاریخ ایجاد" ,
+            "en": "Creation date"
+        }
+    } ,
+    {
+        "key": "by-admin",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"توسط ادمین" ,
+            "en": "By admin"
+        }
+    }  ,
+    {
+        "key": "by-system",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"توسط سیستم" ,
+            "en": "By system"
+        }
+    }     ,
+    {
+        "key": "next",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"بعدی" ,
+            "en": "Next"
+        }
+    }   ,
+    {
+        "key": "waiting",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"در انتظار" ,
+            "en": "waiting"
+        }
+    }   ,
+    {
+        "key": "unsupported-component-type",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"نوع کامپوننت پشتیبانی نشده" ,
+            "en": "Unsupported component type"
+        }
+    }  ,
+    {
+        "key": "create-request",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"ایجاد درخواست" ,
+            "en": "Create request"
+        }
+    }  ,
+    {
+        "key": "nothing-found",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"موردی یافت نشد." ,
+            "en": "Nothing found."
+        }
     }
-},{
-    "key": "max-percentage",
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 50,
-    "t": {
-        "fa": "درصد انتخابی بیشتر از حد مجاز است.",
-        "en": "The selected percentage is more than allowed."
-    }
-},{
-    "key": "update-tables",
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 50,
-    "t": {
-        "fa": "ویرایش جداول",
-        "en": "Update tables"
-    }
-}
-,{
-    "key": "create-tables",
-    "namespaces": [
-        "service"
-    ],
-    "multiLine": false,
-    "maxLength": 50,
-    "t": {
-        "fa": "ایجاد جداول",
-        "en": "Create tables"
-    }
-}
 ]
