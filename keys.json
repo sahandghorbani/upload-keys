@@ -1879,7 +1879,7 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "service"
+            "service","pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1979,7 +1979,7 @@
     {
         "key": "day",
         "namespaces": [
-            "leave"
+            "leave","pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -2014,7 +2014,10 @@
             "leave"
         ],
         "multiLine": false,
-        "maxLength": 50
+        "maxLength": 50,  "t": {
+        "fa": "از روز",
+        "en": "From day"
+    }
     },
     {
         "key": "duration",
@@ -3447,18 +3450,6 @@
         }
     }   ,
     {
-        "key": "waiting",
-        "namespaces": [
-            "pageBuilder"
-        ],
-        "multiLine": false,
-        "maxLength": 50,
-        "t": {
-            "fa":"در انتظار" ,
-            "en": "waiting"
-        }
-    }   ,
-    {
         "key": "unsupported-component-type",
         "namespaces": [
             "pageBuilder"
@@ -3493,5 +3484,173 @@
             "fa":"موردی یافت نشد." ,
             "en": "Nothing found."
         }
+    },
+    {
+        "key": "nothing-found",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"موردی یافت نشد." ,
+            "en": "Nothing found."
+        }
+    } ,
+    {
+        "key": "max-char",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"حداکثر {{maxLength}} کاراکتر باشد." ,
+            "en": "Maximum {{maxLength}} characters."
+        }
+    } ,
+    {
+        "key": "min-char",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"حداقل {{minLength}} کاراکتر باشد." ,
+            "en": "Minimum {{minLength}} characters."
+        }
+    }   ,
+    {
+        "key": "min-number",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"حداقل عدد مجاز {{min}} است." ,
+            "en": "The minimum number allowed is {{min}}."
+        }
+    } ,
+    {
+        "key": "max-number",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"حداکثر عدد مجاز {{max}} است." ,
+            "en": "The maximum number allowed is {{max}}."
+        }
+    } ,
+    {
+        "key": "min-file-size",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 100,
+        "t": {
+            "fa":"حجم فایل از {{minLength}} کیلوبایت کمتر است." ,
+            "en": "File size is less than {{minLength}} KB."
+        }
+    },
+    {
+        "key": "max-file-size",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 100,
+        "t": {
+            "fa":"حجم فایل از {{maxLength}} کیلوبایت بیشتر است." ,
+            "en": "File size is more than {{maxLength}} KB."
+        }
+    } ,
+    {
+        "key": "max-file-number",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 100,
+        "t": {
+            "fa":"حداکثر تعداد فایل های مجاز {{max}} می باشد" ,
+            "en": "The maximum number of files allowed is {{max}}"
+        }
+    } ,
+    {
+        "key": "min-file-number",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 100,
+        "t": {
+            "fa":"حداقل تعداد فایل های مجاز {{min}} می باشد" ,
+            "en": "The minimum number of files allowed is {{min}}"
+        }
+    }  ,
+    {
+        "key": "select-file-or-drag",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 100,
+        "t": {
+            "fa":"فایلی را انتخاب کنید، یا آن را در اینجا بکشید و رها کنید." ,
+            "en": "Select a file, or drag and drop it here."
+        }
+    } , 
+    {
+        "key": "file-format",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"فرمت های JPEG، PNG، PDG و MP4" ,
+            "en": "JPG, PNG, PDF and MP4 formats"
+        }
+    },
+    {
+        "key": "for",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"به مدت" ,
+            "en": "For"
+        }
     }
+,
+    {
+        "key": "for-hours",
+        "namespaces": [
+            "pageBuilder"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa":"به مدت (ساعت)" ,
+            "en": "For (hours)"
+        }
+    }    , {
+    "key": "for-minutes",
+    "namespaces": [
+        "pageBuilder"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa":"به مدت (دقیقه)" ,
+        "en": "For (minutes)"
+    }
+}
 ]

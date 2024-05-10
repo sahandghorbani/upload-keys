@@ -1,0 +1,1 @@
+{"key":"max-file-size","namespaces":["pageBuilder"],"multiLine":false,"maxLength":100,"t":{"fa":"حجم فایل از {{maxLength}} کیلوبایت بیشتر است.","en":"File size is more than {{maxLength}} KB."}}

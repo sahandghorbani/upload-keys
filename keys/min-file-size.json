@@ -1,0 +1,1 @@
+{"key":"min-file-size","namespaces":["pageBuilder"],"multiLine":false,"maxLength":100,"t":{"fa":"حجم فایل از {{minLength}} کیلوبایت کمتر است.","en":"File size is less than {{minLength}} KB."}}
