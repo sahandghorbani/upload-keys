@@ -2275,7 +2275,45 @@
         "fa": "خروج از اکانت",
         "en": "Logout"
     }
-},{
+},
+    {
+        "key": "sent-tickets",
+        "namespaces": [
+            "dashboard"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "تیکت های ارسالی",
+            "en": "Sent Tickets"
+        }
+    }
+,
+    {
+        "key": "received-tickets",
+        "namespaces": [
+            "dashboard"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "تیکت های دریافتی",
+            "en": "Received Tickets"
+        }
+    },
+    {
+        "key": "show-all",
+        "namespaces": [
+            "dashboard"
+        ],
+        "multiLine": false,
+        "maxLength": 50,
+        "t": {
+            "fa": "نمایش همه",
+            "en": "Show All"
+        }
+    },
+    {
     "key": "Business-process-management-system",
     "namespaces": [
         "home" ,"general"
