@@ -246,12 +246,9 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-<<<<<<< HEAD
             "service",
-            "ticketing"
-=======
-            "service","pageBuilder"
->>>>>>> main
+            "ticketing",
+            "pageBuilder"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -269,12 +266,8 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-<<<<<<< HEAD
-            "service",
-            "ticketing"
-=======
+            "ticketing",
             "service" ,"pageBuilder"  ,"general"
->>>>>>> main
         ],
         "multiLine": false,
         "maxLength": 50
@@ -952,13 +945,9 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-<<<<<<< HEAD
             "service",
-            "ticketing"
-=======
-            "service" ,
+            "ticketing",
             "pageBuilder"
->>>>>>> main
 
         ],
         "multiLine": false,
@@ -1433,11 +1422,7 @@
     {
         "key": "uppercase-limit-password-err",
         "namespaces": [
-<<<<<<< HEAD
             "employee" ,"general","home"
-=======
-            "employee"
->>>>>>> main
         ],
         "multiLine": false,
         "maxLength": 60
@@ -1469,11 +1454,7 @@
     {
         "key": "min-number-limit-password-err",
         "namespaces": [
-<<<<<<< HEAD
             "employee" ,"general","home"
-=======
-            "employee"
->>>>>>> main
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1489,36 +1470,20 @@
     {
         "key": "symbols-limit-password-err",
         "namespaces": [
-<<<<<<< HEAD
             "employee" , "general","home"
-=======
-            "employee"
->>>>>>> main
         ],
         "multiLine": false,
         "maxLength": 100
     },
     {
         "key": "duplicate-password-err",
-<<<<<<< HEAD
         "namespaces": ["employee" , "general" ,"home"],
-=======
-        "namespaces": [
-            "employee"
-        ],
->>>>>>> main
         "multiLine": false,
         "maxLength": 50
     },
     {
         "key": "match-duplicate-password-err",
-<<<<<<< HEAD
         "namespaces": ["employee", "general" , "home"],
-=======
-        "namespaces": [
-            "employee" ,"home" ,"general"
-        ],
->>>>>>> main
         "multiLine": false,
         "maxLength": 50
     },
