@@ -1,1 +1,1 @@
-{"key":"accordion-dynamic-name","namespaces":["service"],"t":{"fa":"<span style=\"color:#AEE9FF\">{{x}}</span>","en":"<span style=\"color:#AEE9FF\">{{x}}</span>"}}
+{"key":"accordion-dynamic-name","namespaces":["service"],"t":{"fa":"{{accordionName}} (<span style=\"color:#AEE9FF\">{{accordionTitle}}</span>) ","en":"{{accordionName}} (<span style=\"color:#AEE9FF\"> {{accordionTitle}}</span>)"}}

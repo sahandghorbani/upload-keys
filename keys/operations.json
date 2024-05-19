@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"key":"operations","namespaces":["hierarchy","structure","dashboard","position","role","employee","formBuilder","workflowStatus","workflowBuilder","leave","service","ticketing"],"multiLine":false,"maxLength":50}
+=======
+{"key":"operations","namespaces":["hierarchy","structure","dashboard","position","role","employee","formBuilder","workflowStatus","workflowBuilder","leave","service","pageBuilder"],"multiLine":false,"maxLength":50}
+>>>>>>> main
