@@ -218,7 +218,7 @@
         "maxLength": 50,
         "t": {
             "fa" : "رتبه" ,
-            "en" : "Edit Custom Service"
+            "en" : "Rank"
         }
     },
     {
@@ -247,7 +247,8 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "service"
+            "service",
+            "ticketing"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -265,7 +266,8 @@
             "workflowStatus",
             "workflowBuilder",
             "leave",
-            "service"
+            "service",
+            "ticketing"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -793,6 +795,30 @@
         "maxLength": 70
     },
     {
+        "key": "message",
+        "t": {
+            "fa" : "پیام" ,
+            "en" : "Message"
+        },
+        "namespaces": [
+            "ticketing"
+        ],
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
+        "key": "update-time",
+        "t": {
+            "fa" : "تاریخ به روزرسانی" ,
+            "en" : "Update Tُime"
+        },
+        "namespaces": [
+            "ticketing"
+        ],
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
         "key": "edit-password",
         "t": {
             "fa" : "ویرایش رمز عبور" ,
@@ -918,7 +944,8 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "service"
+            "service",
+            "ticketing"
 
         ],
         "multiLine": false,
@@ -1397,7 +1424,7 @@
     {
         "key": "uppercase-limit-password-err",
         "namespaces": [
-            "employee" ,"general"
+            "employee" ,"general","home"
         ],
         "multiLine": false,
         "maxLength": 60
@@ -1429,7 +1456,7 @@
     {
         "key": "min-number-limit-password-err",
         "namespaces": [
-            "employee" ,"general"
+            "employee" ,"general","home"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -1445,20 +1472,20 @@
     {
         "key": "symbols-limit-password-err",
         "namespaces": [
-            "employee" , "general"
+            "employee" , "general","home"
         ],
         "multiLine": false,
         "maxLength": 100
     },
     {
         "key": "duplicate-password-err",
-        "namespaces": ["employee" , "general"],
+        "namespaces": ["employee" , "general" ,"home"],
         "multiLine": false,
         "maxLength": 50
     },
     {
         "key": "match-duplicate-password-err",
-        "namespaces": ["employee", "home", "general"],
+        "namespaces": ["employee", "general" , "home"],
         "multiLine": false,
         "maxLength": 50
     },
@@ -1707,7 +1734,8 @@
             "workflowBuilder",
             "leave",
             "sidebar",
-            "service"
+            "service",
+            "ticketing"
         ],
         "multiLine": false,
         "maxLength": 50
@@ -2253,7 +2281,32 @@
         "fa": "از اکانت خارج میشوید؟",
         "en": "Do you logout?"
     }
-},{
+},
+    {
+        "key": "sender",
+        "t": {
+            "fa" : "فرستنده" ,
+            "en" : "Sender"
+        },
+        "namespaces": [
+            "ticketing"
+        ],
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
+        "key": "priority",
+        "t": {
+            "fa" : "اولویت" ,
+            "en" : "Priority"
+        },
+        "namespaces": [
+            "ticketing"
+        ],
+        "multiLine": false,
+        "maxLength": 70
+    },
+    {
     "key": "welcome",
     "namespaces": [
         "home"
