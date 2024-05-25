@@ -1,1 +1,1 @@
-{"key":"pending","t":{"fa":"در انتظار","en":"Pending"},"namespaces":["hierarchy","structure","dashboard","position","role","employee","formBuilder","general","workflowBuilder","leave","sidebar","service","pageBuilder"],"multiLine":false,"maxLength":50}
+{"key":"pending","t":{"fa":"در انتظار بررسی","en":"Pending"},"namespaces":["hierarchy","structure","dashboard","position","role","employee","formBuilder","general","workflowBuilder","leave","sidebar","service","pageBuilder","ticketing"],"multiLine":false,"maxLength":50}

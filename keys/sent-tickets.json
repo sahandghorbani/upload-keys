@@ -1,1 +1,1 @@
-{"key":"sent-tickets","namespaces":["dashboard"],"multiLine":false,"maxLength":50,"t":{"fa":"تیکت های ارسالی","en":"Sent Tickets"}}
+{"key":"sent-tickets","namespaces":["dashboard","ticketing"],"multiLine":false,"maxLength":50,"t":{"fa":"تیکت های ارسالی","en":"sent Tickets"}}

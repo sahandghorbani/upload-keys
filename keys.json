@@ -775,6 +775,27 @@
     "maxLength": 70
   },
   {
+    "key": "referred",
+    "t": {
+      "fa": "ارجاع",
+      "en": "referred"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "has-been-referred-to",
+    "t": {
+      "fa": "ارجاع داده شد به",
+      "en": "referred to"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+
+  {
     "key": "addPosition",
     "namespaces": ["position"],
     "multiLine": false,
@@ -789,6 +810,66 @@
   {
     "key": "hrm",
     "namespaces": ["sidebar", "general", "service"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "new",
+    "t": {
+      "fa": "جدید",
+      "en": "new"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "not-answered",
+    "t": {
+      "fa": "در انتظار",
+      "en": "pending"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "has-been-answered",
+    "t": {
+      "fa": "پاسخ داده شده ",
+      "en": "has-been-answered"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "user-response",
+    "t": {
+      "fa": "پاسخ کاربر",
+      "en": "user-response"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "closed",
+    "t": {
+      "fa": "بسته شده",
+      "en": "closed"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "reopened",
+    "t": {
+      "fa": "باز شده",
+      "en": "reopened"
+    },
+    "namespaces": ["ticketing"],
     "multiLine": false,
     "maxLength": 70
   },
@@ -1597,7 +1678,32 @@
     "maxLength": 50
   },
   {
-    "key": "status",
+    "key": "and",
+    "t": {
+      "fa": "و",
+      "en": "and"
+    },
+    "namespaces": [
+      "workflowStatus",
+      "hierarchy",
+      "structure",
+      "dashboard",
+      "position",
+      "role",
+      "employee",
+      "formBuilder",
+      "general",
+      "workflowBuilder",
+      "leave",
+      "sidebar",
+      "service",
+      "ticketing"
+    ],
+    "multiLine": false,
+    "maxLength": 50
+  },
+  {
+    "key": "and",
     "namespaces": [
       "workflowStatus",
       "hierarchy",
@@ -1738,7 +1844,7 @@
   {
     "key": "pending",
     "t": {
-      "fa": "در انتظار",
+      "fa": "در انتظار بررسی",
       "en": "Pending"
     },
     "namespaces": [
@@ -1754,7 +1860,8 @@
       "leave",
       "sidebar",
       "service",
-      "pageBuilder"
+      "pageBuilder",
+      "ticketing"
     ],
     "multiLine": false,
     "maxLength": 50
@@ -2080,6 +2187,16 @@
     "maxLength": 70
   },
   {
+    "key": "بررسی نشد",
+    "t": {
+      "fa": "فرستنده",
+      "en": "Not Answered"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
     "key": "priority",
     "t": {
       "fa": "اولویت",
@@ -2121,22 +2238,64 @@
   },
   {
     "key": "sent-tickets",
-    "namespaces": ["dashboard"],
+    "namespaces": ["dashboard", "ticketing"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
       "fa": "تیکت های ارسالی",
-      "en": "Sent Tickets"
+      "en": "sent Tickets"
     }
   },
   {
     "key": "received-tickets",
-    "namespaces": ["dashboard"],
+    "namespaces": ["dashboard", "ticketing"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
       "fa": "تیکت های دریافتی",
-      "en": "Received Tickets"
+      "en": "received Tickets"
+    }
+  },
+  {
+    "key": "added-people",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "را اضافه کرد",
+      "en": "Added"
+    }
+  },
+
+  {
+    "key": "removed-people",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "را حذف کرد",
+      "en": "Removed"
+    }
+  },
+  {
+    "key": "removed-from-collaboration",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "از اشتراک گذاری حذف شد",
+      "en": "Removed from collaboration"
+    }
+  },
+
+  {
+    "key": "ticket",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "تیکت",
+      "en": "ticket"
     }
   },
   {
