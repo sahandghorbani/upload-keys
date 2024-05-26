@@ -3469,5 +3469,137 @@
         "fa":"صفحه" ,
         "en": "Page"
     }
+}  , {
+  "key": "level",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"سطح" ,
+    "en": "Level"
+  }
+},  {
+  "key": "chairman-holding",
+  "namespaces": [
+   "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"ریاست هولدینگ" ,
+    "en": "Chairman of the holding"
+  }
+}  , {
+  "key": "consultant",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"مشاور" ,
+    "en": "Consultant"
+  }
+} , {
+  "key": "CEO",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"مدیر عامل" ,
+    "en": "CEO"
+  }
+}, {
+  "key": "senior-manager",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"مدیر ارشد" ,
+    "en": "Senior manager"
+  }
+} , {
+  "key": "mid-level-manager",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"مدیر میانی" ,
+    "en": "Mid-level manager"
+  }
+}, {
+  "key": "senior-employee",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"کارمند ارشد" ,
+    "en": "Senior employee"
+  }
+} , {
+  "key": "middle-employee",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"کارمند میانی" ,
+    "en": "Middle employee"
+  }
+}  , {
+  "key": "simple-employee",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"کارمند ساده" ,
+    "en": "Simple employee"
+  }
+} , {
+  "key": "skilled-worker",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"کارگر ماهر" ,
+    "en": "Skilled worker"
+  }
+}, {
+  "key": "semi-skilled-worker",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"کارگر نیمه ماهر" ,
+    "en": "Semi-skilled worker"
+  }
+}, {
+  "key": "worker",
+  "namespaces": [
+    "role"
+  ],
+  "multiLine": false,
+  "maxLength": 50,
+  "t": {
+    "fa":"کارگر ساده" ,
+    "en": "worker"
+  }
 }
 ]
