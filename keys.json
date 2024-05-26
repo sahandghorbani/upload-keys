@@ -3458,5 +3458,16 @@
       "fa": "به مدت (دقیقه)",
       "en": "For (minutes)"
     }
-  }
+} , {
+    "key": "page",
+    "namespaces": [
+        "general" ,"service"
+    ],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+        "fa":"صفحه" ,
+        "en": "Page"
+    }
+}
 ]
