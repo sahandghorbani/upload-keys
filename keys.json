@@ -3472,7 +3472,7 @@
 }  , {
   "key": "level",
   "namespaces": [
-    "role"
+    "role" ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3483,7 +3483,7 @@
 },  {
   "key": "chairman-holding",
   "namespaces": [
-   "role"
+   "role"    ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3494,7 +3494,7 @@
 }  , {
   "key": "consultant",
   "namespaces": [
-    "role"
+    "role"   ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3505,7 +3505,7 @@
 } , {
   "key": "CEO",
   "namespaces": [
-    "role"
+    "role"   ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3516,7 +3516,7 @@
 }, {
   "key": "senior-manager",
   "namespaces": [
-    "role"
+    "role"      ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3527,7 +3527,7 @@
 } , {
   "key": "mid-level-manager",
   "namespaces": [
-    "role"
+    "role"  ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3538,7 +3538,7 @@
 }, {
   "key": "senior-employee",
   "namespaces": [
-    "role"
+    "role"   ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3549,7 +3549,7 @@
 } , {
   "key": "middle-employee",
   "namespaces": [
-    "role"
+    "role" ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3560,7 +3560,7 @@
 }  , {
   "key": "simple-employee",
   "namespaces": [
-    "role"
+    "role"   ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3571,7 +3571,7 @@
 } , {
   "key": "skilled-worker",
   "namespaces": [
-    "role"
+    "role"  ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3582,7 +3582,7 @@
 }, {
   "key": "semi-skilled-worker",
   "namespaces": [
-    "role"
+    "role"  ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
@@ -3593,7 +3593,7 @@
 }, {
   "key": "worker",
   "namespaces": [
-    "role"
+    "role" ,"general"
   ],
   "multiLine": false,
   "maxLength": 50,
