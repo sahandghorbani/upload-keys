@@ -716,6 +716,87 @@
     "maxLength": 70
   },
   {
+    "key": "now",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "اکنون",
+      "en": "now"
+    }
+  },
+  {
+    "key": "minute",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "دقیقه",
+      "en": "minute"
+    }
+  },
+  {
+    "key": "minutes",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "دقیقه",
+      "en": "minutes"
+    }
+  },
+  {
+    "key": "ago",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "پیش",
+      "en": "ago"
+    }
+  },
+  {
+    "key": "hour",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "ساعت",
+      "en": "hour"
+    }
+  },
+  {
+    "key": "hours",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "ساعت",
+      "en": "hours"
+    }
+  },
+  {
+    "key": "day",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "روز",
+      "en": "day"
+    }
+  },
+  {
+    "key": "days",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "روز",
+      "en": "days"
+    }
+  },
+
+  {
     "key": "low",
     "t": {
       "fa": "کم",
@@ -811,7 +892,7 @@
       "fa": "ارجاع داده شد به",
       "en": "referred to"
     },
-    "namespaces": ["ticketing"],
+    "namespaces": ["ticketing", "home"],
     "multiLine": false,
     "maxLength": 70
   },
@@ -860,7 +941,7 @@
       "fa": "پاسخ داده شده ",
       "en": "has-been-answered"
     },
-    "namespaces": ["ticketing"],
+    "namespaces": ["ticketing", "home"],
     "multiLine": false,
     "maxLength": 70
   },
