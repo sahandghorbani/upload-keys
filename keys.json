@@ -2289,6 +2289,16 @@
     "maxLength": 70
   },
   {
+    "key": "review-ticket",
+    "t": {
+      "fa": "بررسی تیکت",
+      "en": "Review Ticket"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
     "key": "بررسی نشد",
     "t": {
       "fa": "فرستنده",
