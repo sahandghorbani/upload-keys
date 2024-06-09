@@ -176,7 +176,8 @@
       "leave",
       "service",
       "general",
-      "pageBuilder"
+      "pageBuilder",
+      "ticketing"
     ],
     "multiLine": false,
     "maxLength": 50
@@ -383,7 +384,8 @@
       "workflowBuilder",
       "leave",
       "service",
-      "pageBuilder"
+      "pageBuilder",
+      "ticketing"
     ],
     "multiLine": false,
     "maxLength": 50
@@ -918,7 +920,7 @@
   {
     "key": "new",
     "t": {
-      "fa": "جدید",
+      "fa": "بررسی نشده",
       "en": "new"
     },
     "namespaces": ["ticketing"],
@@ -938,8 +940,8 @@
   {
     "key": "has-been-answered",
     "t": {
-      "fa": "پاسخ داده شده ",
-      "en": "has-been-answered"
+      "fa": "پاسخ پشتیبانی ",
+      "en": "has been answered"
     },
     "namespaces": ["ticketing", "home"],
     "multiLine": false,
@@ -968,8 +970,18 @@
   {
     "key": "reopened",
     "t": {
-      "fa": "باز شده",
+      "fa": "بررسی نشده",
       "en": "reopened"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "newly-opened",
+    "t": {
+      "fa": "تیکت دوباره باز شده است",
+      "en": "ticket opened again"
     },
     "namespaces": ["ticketing"],
     "multiLine": false,
@@ -1011,7 +1023,7 @@
       "fa": "گیرنده",
       "en": "Assignee"
     },
-    "namespaces": ["ticketing" , "general"],
+    "namespaces": ["ticketing", "general"],
     "multiLine": false,
     "maxLength": 70
   },
@@ -1031,7 +1043,7 @@
       "fa": "گیرنده",
       "en": "Assignee"
     },
-    "namespaces": ["ticketing" ,"general"],
+    "namespaces": ["ticketing", "general"],
     "multiLine": false,
     "maxLength": 70
   },
@@ -3570,148 +3582,135 @@
       "fa": "به مدت (دقیقه)",
       "en": "For (minutes)"
     }
-} , {
+  },
+  {
     "key": "page",
-    "namespaces": [
-        "general" ,"service"
-    ],
+    "namespaces": ["general", "service"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
-        "fa":"صفحه" ,
-        "en": "Page"
+      "fa": "صفحه",
+      "en": "Page"
     }
-}  , {
-  "key": "level",
-  "namespaces": [
-    "role" ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"سطح" ,
-    "en": "Level"
+  },
+  {
+    "key": "level",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "سطح",
+      "en": "Level"
+    }
+  },
+  {
+    "key": "chairman-holding",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "ریاست هولدینگ",
+      "en": "Chairman of the holding"
+    }
+  },
+  {
+    "key": "consultant",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "مشاور",
+      "en": "Consultant"
+    }
+  },
+  {
+    "key": "CEO",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "مدیر عامل",
+      "en": "CEO"
+    }
+  },
+  {
+    "key": "senior-manager",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "مدیر ارشد",
+      "en": "Senior manager"
+    }
+  },
+  {
+    "key": "mid-level-manager",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "مدیر میانی",
+      "en": "Mid-level manager"
+    }
+  },
+  {
+    "key": "senior-employee",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "کارمند ارشد",
+      "en": "Senior employee"
+    }
+  },
+  {
+    "key": "middle-employee",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "کارمند میانی",
+      "en": "Middle employee"
+    }
+  },
+  {
+    "key": "simple-employee",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "کارمند ساده",
+      "en": "Simple employee"
+    }
+  },
+  {
+    "key": "skilled-worker",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "کارگر ماهر",
+      "en": "Skilled worker"
+    }
+  },
+  {
+    "key": "semi-skilled-worker",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "کارگر نیمه ماهر",
+      "en": "Semi-skilled worker"
+    }
+  },
+  {
+    "key": "worker",
+    "namespaces": ["role", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "کارگر ساده",
+      "en": "worker"
+    }
   }
-},  {
-  "key": "chairman-holding",
-  "namespaces": [
-   "role"    ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"ریاست هولدینگ" ,
-    "en": "Chairman of the holding"
-  }
-}  , {
-  "key": "consultant",
-  "namespaces": [
-    "role"   ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"مشاور" ,
-    "en": "Consultant"
-  }
-} , {
-  "key": "CEO",
-  "namespaces": [
-    "role"   ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"مدیر عامل" ,
-    "en": "CEO"
-  }
-}, {
-  "key": "senior-manager",
-  "namespaces": [
-    "role"      ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"مدیر ارشد" ,
-    "en": "Senior manager"
-  }
-} , {
-  "key": "mid-level-manager",
-  "namespaces": [
-    "role"  ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"مدیر میانی" ,
-    "en": "Mid-level manager"
-  }
-}, {
-  "key": "senior-employee",
-  "namespaces": [
-    "role"   ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"کارمند ارشد" ,
-    "en": "Senior employee"
-  }
-} , {
-  "key": "middle-employee",
-  "namespaces": [
-    "role" ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"کارمند میانی" ,
-    "en": "Middle employee"
-  }
-}  , {
-  "key": "simple-employee",
-  "namespaces": [
-    "role"   ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"کارمند ساده" ,
-    "en": "Simple employee"
-  }
-} , {
-  "key": "skilled-worker",
-  "namespaces": [
-    "role"  ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"کارگر ماهر" ,
-    "en": "Skilled worker"
-  }
-}, {
-  "key": "semi-skilled-worker",
-  "namespaces": [
-    "role"  ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"کارگر نیمه ماهر" ,
-    "en": "Semi-skilled worker"
-  }
-}, {
-  "key": "worker",
-  "namespaces": [
-    "role" ,"general"
-  ],
-  "multiLine": false,
-  "maxLength": 50,
-  "t": {
-    "fa":"کارگر ساده" ,
-    "en": "worker"
-  }
-}
 ]
