@@ -706,7 +706,77 @@
     "multiLine": false,
     "maxLength": 70
   },
+  {
+    "key": "reported-tasks",
+    "t": {
+      "fa": "تیکت های ارسالی",
+      "en": "Reported Tasks"
+    },
+    "namespaces": ["ticketing", "general"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "my-tasks",
+    "t": {
+      "fa": "تیکت های دریافتی",
+      "en": "My Tasks"
+    },
+    "namespaces": ["ticketing", "general"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "all-tickets",
+    "t": {
+      "fa": "همه تیکت ها",
+      "en": "All tickets"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
 
+  {
+    "key": "reported-tasks-ticket",
+    "t": {
+      "fa": "ارسال تیکت",
+      "en": "Report Ticket"
+    },
+    "namespaces": ["ticketing", "general"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+   {
+    "key": "newly-opened",
+    "t": {
+      "fa": "ارسال تیکت",
+      "en": "Report Ticket"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "no-new-received-task",
+    "t": {
+      "fa": " هیچ تیکت جدیدی دریافت نکرده اید",
+      "en": "no new received task"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "no-new-reported-task",
+    "t": {
+      "fa": " هیچ تیکت جدیدی ارسال نکرده اید",
+      "en": "no new reported task"
+    },
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 70
+  },
   {
     "key": "lowest",
     "t": {
@@ -719,7 +789,7 @@
   },
   {
     "key": "now",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -729,7 +799,7 @@
   },
   {
     "key": "minute",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -739,7 +809,7 @@
   },
   {
     "key": "minutes",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -749,7 +819,7 @@
   },
   {
     "key": "ago",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -759,7 +829,7 @@
   },
   {
     "key": "hour",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -769,7 +839,7 @@
   },
   {
     "key": "hours",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -779,7 +849,7 @@
   },
   {
     "key": "day",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -789,7 +859,7 @@
   },
   {
     "key": "days",
-    "namespaces": ["ticketing"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -980,11 +1050,21 @@
   {
     "key": "newly-opened",
     "t": {
-      "fa": "تیکت دوباره باز شده است",
+      "fa": "دوباره باز شده",
       "en": "ticket opened again"
     },
     "namespaces": ["ticketing"],
     "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "internal-ticketing",
+    "t": {
+      "fa": "تیکتینگ داخلی",
+      "en": "Internal Ticketing"
+    },
+    "namespaces": ["ticketing", "general", "sidebar"],
+    "multiLine": false, 
     "maxLength": 70
   },
   {
@@ -994,6 +1074,16 @@
       "en": "Customer relationship management"
     },
     "namespaces": ["sidebar", "general", "service"],
+    "multiLine": false,
+    "maxLength": 70
+  },
+  {
+    "key": "new-assignee",
+    "t": {
+       "fa": "ارجاع شده جدید",
+      "en": "New Assignee"
+    },
+    "namespaces": ["ticketing"],
     "multiLine": false,
     "maxLength": 70
   },
@@ -1148,7 +1238,8 @@
       "workflowBuilder",
       "leave",
       "sidebar",
-      "service"
+      "service",
+      "general"
     ],
     "multiLine": false,
     "maxLength": 70
@@ -1331,13 +1422,13 @@
   },
   {
     "key": "changePassword",
-    "namespaces": ["dashboard"],
+    "namespaces": ["dashboard", "general"],
     "multiLine": false,
     "maxLength": 70
   },
   {
     "key": "exit",
-    "namespaces": ["dashboard"],
+    "namespaces": ["dashboard", "general"],
     "multiLine": false,
     "maxLength": 70
   },
@@ -2362,7 +2453,7 @@
   },
   {
     "key": "sent-tickets",
-    "namespaces": ["dashboard", "ticketing"],
+    "namespaces": ["dashboard", "ticketing" ,"general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2372,7 +2463,7 @@
   },
   {
     "key": "received-tickets",
-    "namespaces": ["dashboard", "ticketing"],
+    "namespaces": ["dashboard", "ticketing", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2424,7 +2515,7 @@
   },
   {
     "key": "show-all",
-    "namespaces": ["dashboard"],
+    "namespaces": ["general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {

@@ -1,1 +1,1 @@
-{"key":"received-tickets","namespaces":["dashboard","ticketing"],"multiLine":false,"maxLength":50,"t":{"fa":"تیکت های دریافتی","en":"received Tickets"}}
+{"key":"received-tickets","namespaces":["dashboard","ticketing","general"],"multiLine":false,"maxLength":50,"t":{"fa":"تیکت های دریافتی","en":"received Tickets"}}
