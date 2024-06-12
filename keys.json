@@ -1268,7 +1268,7 @@
   },
   {
     "key": "dashboard",
-    "namespaces": ["sidebar", "dashboard", "home"],
+    "namespaces": ["sidebar", "dashboard", "home", "general"],
     "multiLine": false,
     "maxLength": 70,
     "t": {
@@ -3802,6 +3802,16 @@
     "t": {
       "fa": "کارگر ساده",
       "en": "worker"
+    }
+  },
+  {
+    "key": "admin",
+    "namespaces": ["ticketing", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "ادمین",
+      "en": "admin"
     }
   }
 ]
