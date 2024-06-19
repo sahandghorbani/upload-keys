@@ -1,1 +1,1 @@
-{"key":"disable-condition","t":{"fa":"شرط غیر فعال کردن","en":"Disable condition"},"namespaces":["service"],"multiLine":false,"maxLength":50}
+{"key":"disable-condition","t":{"fa":"شرط غیر فعال کردن","en":"Disable condition"},"namespaces":["service","general"],"multiLine":false,"maxLength":50}

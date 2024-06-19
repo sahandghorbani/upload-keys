@@ -472,7 +472,7 @@
       "fa": "مرتب سازی",
       "en": "Sort"
     },
-    "namespaces": ["service"],
+    "namespaces": ["service" ,"general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -2895,7 +2895,7 @@
   },
   {
     "key": "general-settings",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2905,7 +2905,7 @@
   },
   {
     "key": "tables-input-values",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2915,7 +2915,7 @@
   },
   {
     "key": "tables-header-operations",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2925,7 +2925,7 @@
   },
   {
     "key": "tables-row-input-values",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2935,7 +2935,7 @@
   },
   {
     "key": "tables-Columns",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2945,7 +2945,7 @@
   },
   {
     "key": "tables-row-operations",
-    "namespaces": ["service"],
+    "namespaces": ["service" ,"general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2955,7 +2955,7 @@
   },
   {
     "key": "tables-filter-Sorting",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2965,7 +2965,7 @@
   },
   {
     "key": "tables-Sidebar",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2975,7 +2975,7 @@
   },
   {
     "key": "previous-step",
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -3089,7 +3089,7 @@
       "fa": "شرط غیر فعال کردن",
       "en": "Disable condition"
     },
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3099,7 +3099,7 @@
       "fa": "پارامتر های  کوئری",
       "en": "Query parameters"
     },
-    "namespaces": ["service"],
+    "namespaces": ["service" ,"general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3230,7 +3230,7 @@
       "en": "Operation type",
       "fa": "نوع عملیات"
     },
-    "namespaces": ["service"],
+    "namespaces": ["service" ,"general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3240,7 +3240,7 @@
       "en": "button title",
       "fa": "عنوان دکمه"
     },
-    "namespaces": ["service"],
+    "namespaces": ["service","general"],
     "multiLine": false,
     "maxLength": 50
   },
