@@ -472,7 +472,7 @@
       "fa": "مرتب سازی",
       "en": "Sort"
     },
-    "namespaces": ["service" ,"general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -747,7 +747,7 @@
     "multiLine": false,
     "maxLength": 70
   },
-   {
+  {
     "key": "newly-opened",
     "t": {
       "fa": "ارسال تیکت",
@@ -1064,7 +1064,7 @@
       "en": "Internal Ticketing"
     },
     "namespaces": ["ticketing", "general", "sidebar"],
-    "multiLine": false, 
+    "multiLine": false,
     "maxLength": 70
   },
   {
@@ -1080,7 +1080,7 @@
   {
     "key": "new-assignee",
     "t": {
-       "fa": "ارجاع شده جدید",
+      "fa": "ارجاع شده جدید",
       "en": "New Assignee"
     },
     "namespaces": ["ticketing"],
@@ -2453,7 +2453,7 @@
   },
   {
     "key": "sent-tickets",
-    "namespaces": ["dashboard", "ticketing" ,"general"],
+    "namespaces": ["dashboard", "ticketing", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2895,7 +2895,7 @@
   },
   {
     "key": "general-settings",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2905,7 +2905,7 @@
   },
   {
     "key": "tables-input-values",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2915,7 +2915,7 @@
   },
   {
     "key": "tables-header-operations",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2925,7 +2925,7 @@
   },
   {
     "key": "tables-row-input-values",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2935,7 +2935,7 @@
   },
   {
     "key": "tables-Columns",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2945,7 +2945,7 @@
   },
   {
     "key": "tables-row-operations",
-    "namespaces": ["service" ,"general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2955,7 +2955,7 @@
   },
   {
     "key": "tables-filter-Sorting",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2965,7 +2965,7 @@
   },
   {
     "key": "tables-Sidebar",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -2975,7 +2975,7 @@
   },
   {
     "key": "previous-step",
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50,
     "t": {
@@ -3089,7 +3089,7 @@
       "fa": "شرط غیر فعال کردن",
       "en": "Disable condition"
     },
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3099,7 +3099,7 @@
       "fa": "پارامتر های  کوئری",
       "en": "Query parameters"
     },
-    "namespaces": ["service" ,"general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3230,7 +3230,7 @@
       "en": "Operation type",
       "fa": "نوع عملیات"
     },
-    "namespaces": ["service" ,"general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3240,7 +3240,7 @@
       "en": "button title",
       "fa": "عنوان دکمه"
     },
-    "namespaces": ["service","general"],
+    "namespaces": ["service", "general"],
     "multiLine": false,
     "maxLength": 50
   },
@@ -3822,6 +3822,56 @@
     "t": {
       "fa": "چینش ستون ها",
       "en": "Columns align"
+    }
+  },
+  {
+    "key": "export",
+    "namespaces": ["pageBuilder"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "خروجی گرفتن",
+      "en": "Export"
+    }
+  },
+  {
+    "key": "delete-all",
+    "namespaces": ["pageBuilder"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "حذف همه",
+      "en": "Delete All"
+    }
+  },
+  {
+    "key": "export-all-table",
+    "namespaces": ["pageBuilder"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "خروجی کل جدول",
+      "en": "Export All Table"
+    }
+  },
+  {
+    "key": "export-unit",
+    "namespaces": ["pageBuilder"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "خروجی واحد",
+      "en": "Export Single"
+    }
+  },
+  {
+    "key": "export-success-message",
+    "namespaces": ["pageBuilder"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "فایل خروجی با موفقیت دانلود شد",
+      "en": "Export file successfully downloaded"
     }
   }
 ]
