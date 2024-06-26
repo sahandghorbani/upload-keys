@@ -3873,5 +3873,56 @@
       "fa": "فایل خروجی با موفقیت دانلود شد",
       "en": "Export file successfully downloaded"
     }
+  },
+  {
+    "key": "receiver",
+    "namespaces": ["ticketing", "general"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "گیرنده",
+      "en": "Receiver"
+    }
+  },
+  {
+    "key": "list-of-people",
+    "namespaces": ["general" ,"ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "لیست افراد",
+      "en": "List Of People"
+    }
+  },
+  {
+    "key": "collaborators-list",
+    "namespaces": ["general" ,"ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "لیست اشتراک گذاری",
+      "en": "Collaborators List"
+    }
+  },
+  {
+    "key": "deleted-from-employee-list",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa": "از لیست کارمندان حذف شده است",
+      "en": "Deleted From Employee List"
+    }
+  },
+  {
+    "key": "deleted-employee",
+    "namespaces": ["ticketing"],
+    "multiLine": false,
+    "maxLength": 50,
+    "t": {
+      "fa" : "کارمند حذف شده" ,
+      "en": "Deleted Employee"
+    }
   }
+
 ]
